@@ -1,5 +1,5 @@
 # **Employee Manager — Full-Stack (Node/Express/TypeORM + React/Vite)**
-```bash
+
 printf "%s" "# Employee Manager
 
 Full stack app to manage employees.
