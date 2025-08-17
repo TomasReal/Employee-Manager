@@ -19,6 +19,7 @@ npm start            # http://localhost:3001
 ```
 
 ## Frontend
+- **Asistencia con IA (Mocha):** utilicé **Mocha** (IA de prototipado UI, *no confundir con el framework de tests*) para acelerar la creación de componentes presentacionales (cards, tablas, formularios) y el armado del layout inicial. Todo el código fue **revisado y adaptado**: manejo de estado, validaciones, accesibilidad, manejo de errores, y estilos con Tailwind.
 
 ```bash
 
