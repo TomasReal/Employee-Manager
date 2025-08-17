@@ -15,7 +15,7 @@ cd back
 cp .env.example .env   # completar credenciales
 npm i
 npm run seed           # poblar DB (opcional)
-npm run dev            # http://localhost:3001
+npm start            # http://localhost:3001
 \`\`\`
 
 ## Frontend
@@ -29,7 +29,7 @@ npm run dev            # http://localhost:5173
 ## Endpoints
 - GET /employees
 - GET /employees/:id
-- GET /employees/stats/areas
+- GET /employees/areas
 - POST /employees        (JWT)
 - PUT /employees/:id     (JWT)
 - DELETE /employees/:id  (JWT)
