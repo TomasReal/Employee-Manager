@@ -1,0 +1,15 @@
+
+CREATE TABLE employees (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  firstName TEXT NOT NULL,
+  lastName TEXT NOT NULL,
+  email TEXT NOT NULL,
+  position TEXT NOT NULL,
+  area TEXT NOT NULL,
+  phone TEXT,
+  hireDate DATE NOT NULL,
+  salary INTEGER,
+  status TEXT NOT NULL DEFAULT 'active',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
